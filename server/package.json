@@ -4,7 +4,12 @@
   "description": "Server for Pipeline UI ",
   "main": "index.js",
   "scripts": {
+    "server":"npm start server.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
+
+
   },
   "author": "Rudhram Saraswat",
   "license": "ISC",
