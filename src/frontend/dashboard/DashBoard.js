@@ -18,7 +18,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import NavBar from '../navbar/NavBar';
 import { Link } from 'react-router-dom';
-import { VscAccount } from 'react-icons/vsc'
+import { MdAccountBox } from 'react-icons/md'
 import { AiOutlineLogout } from 'react-icons/ai'
 import { BiTransfer } from 'react-icons/bi'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
@@ -131,7 +131,7 @@ export default function PersistentDrawerLeft({ formValue, setFormValue,user,_id}
             <ListItem key={text} disablePadding>
               <ListItemButton>
                 <ListItemIcon>
-                  {(index === 0) ? <VscAccount className='myicon'/> : (index === 1) ? <RiLuggageDepositLine className='myicon'/> : (index === 2) ? <MdOutlineTransferWithinAStation className='myicon'/> : (index === 3) ? <MdOutlineAccountBalanceWallet className='myicon'/> : (index === 4) ? <BiTransfer className='myicon'/> : <AiOutlineLogout className='myicon'/>}
+                  {(index === 0) ? <MdAccountBox className='myicon'/> : (index === 1) ? <RiLuggageDepositLine className='myicon'/> : (index === 2) ? <MdOutlineTransferWithinAStation className='myicon'/> : (index === 3) ? <MdOutlineAccountBalanceWallet className='myicon'/> : (index === 4) ? <BiTransfer className='myicon'/> : <AiOutlineLogout className='myicon'/>}
                 </ListItemIcon>
                 <ListItemText primary={text} />
               </ListItemButton>
