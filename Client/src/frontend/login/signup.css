@@ -1,0 +1,34 @@
+.mainsignup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.hide_Input{
+    width: 0rem;
+    height: 0rem;
+    visibility: hidden;
+}
+
+.myheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 4vh;
+    color: white;
+    margin: 2rem 0rem 2rem 0rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.already{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mysiginhead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

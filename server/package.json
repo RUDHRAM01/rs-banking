@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "Server for Pipeline UI ",
+  "main": "index.js",
+  "scripts": {
+    "server":"npm start server.js",
+    "client":"npm start --prefix client",
+    "dev":"concurrently \"npm run server\" \"npm run client\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+
+  },
+  "author": "Rudhram Saraswat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "mongoose": "^6.3.3",
+    "pino": "^7.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
